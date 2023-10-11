@@ -1,0 +1,168 @@
+/* ---------------For login---------------------- */
+.login-card {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    background: #fff;
+    padding: 30px 70px 50px 30px;
+    border-radius: 13px;
+    box-shadow: 2px 4px 8px rgba(52 54 56 / 40%);
+}
+
+.login-card .heading {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .login-card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: #d4096f;
+} */
+
+.login-card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #252424;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.login-form input {
+    margin: 8px 0;
+    height: 120%;
+    width: 120%;
+    padding: 8px 20px;
+    font-size: 15px;
+    outline: none;
+    border: .5px solid rgb(192, 190, 190);
+    border-radius: 4px;
+}
+
+.login-form input:focus {
+    border: .5px solid #195ee6;
+}
+
+input::placeholder {
+    color: #5287f1;
+    font-weight: 300;
+}
+
+.last-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.last-item a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #252424;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.login-form button {
+    height: 120%;
+    width: 120%;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 4px;
+    background-color: #195ee6;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #063188;
+    
+}
+
+/* -----------------for login-------------------------- */
+
+.last-item .login {
+    margin-top: 20px;
+}
+
+.last-item .login span {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #195ee6;
+}
+
+/* -----------------for login-------------------------- */
+
+
+
+@media (max-width: 900px) {
+    .login-card {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+}
+
+@media (max-width: 685px) {
+    .login-card {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .login-card {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media (max-width: 400px) {
+    .login-card {
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+}
+
+@media (max-width: 330px) {
+    .login-card {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        margin: 0 10px;
+    }
+
+    .heading h3 {
+        font-size: 14px;
+    }
+
+    .last-item a {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 270px) {
+    .last-item a {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,160 @@
+.footer-section {
+    padding: 30px 0 60px;
+    background-color: rgb(244, 245, 247);
+    overflow: hidden;
+}
+
+.footer-section-nav {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-text a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 500;
+    transition: .3s all ease;
+}
+
+.logo:hover {
+    color: #195ee6;
+}
+
+.footer-contacts {
+    padding: 9px 0 25px 0;
+}
+
+.contact-details {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-contacts a {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    color: #8c93a6;
+    font-weight: 300;
+}
+
+.footer-contacts a:hover {
+    color: #195ee6;
+}
+
+.social-links {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin-right: 7px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+    transition: all ease 0.3s;
+}
+
+.social-media img {
+    display: block;
+    border-style: none;
+    background: #d3dcf8;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #8c93a6;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-nav-details {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 100px; */
+}
+
+.footer-nav-list {
+    display: grid;
+    gap: 12px;
+    grid-auto-rows: min-content;
+    margin-right: 20px;
+}
+
+.footer-nav-heading {
+    margin-bottom: 20px;
+    color: #262d40;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+}
+
+.footer-nav-title {
+    color: #5b6171;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-nav-list a {
+    text-decoration: none;
+    color: #8c93a6;
+    font-weight: 400;
+}
+
+.footer-nav-list a:hover {
+    color: #195ee6;
+}
+
+
+/* Media queries */
+
+@media (max-width: 999px) {
+    .footer-section-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 499px) {
+    .footer-nav {
+        grid-template-columns: 1fr 1fr;
+    }
+}

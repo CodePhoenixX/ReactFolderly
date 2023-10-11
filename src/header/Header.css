@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.header-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.contacts {
+    height: 40px;
+    position: fixed;
+    background-color: #f9fafc;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1230px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 52px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left a:hover {
+    color: #195ee6;
+}
+
+.left .text {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    color: #727b89;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 14px;
+    transition: all .3s ease;
+    letter-spacing: 0.03px;
+}
+
+.text:last-child {
+    margin-right: 0;
+}
+
+.icon-box {
+    color: #a7adbe;
+}
+
+.icon {
+    margin-right: 4px;
+    transition: all .3s ease;
+}
+
+.left a {
+    text-decoration: none;
+}
+
+/* ------------- */
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right .text {
+    display: flex;
+    align-items: center;
+    /* margin-right: 25px;	 */
+    color: #727b89;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 14px;
+    transition: all .3s ease;
+}
+
+.right .sales {
+    margin-right: 0;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+.right a:hover {
+    color: #195ee6;
+}
+
+.right a:hover span {
+    color: #195ee6;
+}
+
+
+
+.divider {
+    width: 1.5px;
+    height: 15px;
+    margin: 0 12px;
+    background-color: #195ee6;
+    /* background-color: rgba(115, 122, 140, 0.1); */
+}
+
+.stripe {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------------------- */
+
+.header_logo{
+    font-weight: 500;
+    cursor: pointer;
+    color: #373737;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+.nav-btn {
+	padding: 2px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 999px) {
+	.container .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+    .navigation_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+	.header-container nav {
+		position: fixed;
+		top: 70px;
+		left: 0;
+		height: auto;
+        padding: 30px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 2rem;
+		background-color: #f9fafc;
+		transition: 0.5s;
+		transform: translateX(100vh);
+	}
+
+	.container .responsive {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+.button-box {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.small {
+    min-height: 40px;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.button {
+    color: #195ee6;
+    background-color: transparent;
+    border: 1px solid #4073eb;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #d3e1fd;
+    border-color: #d3e1fd;
+}
+
+.button-1 {
+    background-color: #195ee6;
+    border-color: #195ee6;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.button-1:hover {
+    background-color: #0d46b6;
+    border-color: #0d46b6;
+}
+
+.sm-btn {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button-box a {
+    text-decoration: none;
+}

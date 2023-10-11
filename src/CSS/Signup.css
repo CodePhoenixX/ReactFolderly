@@ -1,0 +1,162 @@
+/* ---------------For signup---------------------- */
+
+.signup-card {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    background: #fff;
+    padding: 30px 70px 50px 30px;
+    border-radius: 13px;
+    box-shadow: 2px 4px 8px rgba(52 54 56 / 40%);
+}
+
+
+.signup-card .signup-heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .login-card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: #d4096f;
+} */
+
+.signup-card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #252424;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.signup-form input {
+    margin: 8px 0;
+    height: 120%;
+    width: 120%;
+    padding: 8px 20px;
+    font-size: 15px;
+    outline: none;
+    border: .5px solid rgb(192, 190, 190);
+    border-radius: 4px;
+}
+
+.signup-form input:focus {
+    border: .5px solid #195ee6;
+}
+
+input::placeholder {
+    color: #5287f1;
+    font-weight: 300;
+}
+
+.signup-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.signup-item a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #252424;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.signup-form button {
+    height: 120%;
+    width: 120%;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 4px;
+    background-color: #195ee6;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background: #063188;
+}
+
+/* -----------------for signup-------------------------- */
+
+.signup-item .signup {
+    margin-top: 20px;
+}
+
+.signup-item .signup span {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #195ee6;
+}
+
+/* -----------------for signup-------------------------- */
+
+
+
+@media (max-width: 900px) {
+    .signup-card {
+        position: absolute;
+        top: 15%;
+        left: 30%;
+    }
+}
+
+@media (max-width: 685px) {
+    .signup-card {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .signup-card {
+        position: absolute;
+        top: 8%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .signup-card {
+        position: absolute;
+        top: 10%;
+        left: 6%;
+    }
+}
+
+@media (max-width: 330px) {
+    .signup-card {
+        position: absolute;
+        top: 3%;
+        left: 0;
+        margin: 0 10px;
+    }
+
+    .signup-heading h3 {
+        font-size: 14px;
+    }
+
+    .signup-item a {
+        font-size: 12px;
+    }
+
+}
